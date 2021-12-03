@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-base`
+# `@safecoin/wallet-adapter-base`
 
 <!-- @TODO -->
 

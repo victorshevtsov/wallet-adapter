@@ -1,5 +1,5 @@
 import { Button, ButtonProps } from '@material-ui/core';
-import { useWallet } from '@solana/wallet-adapter-react';
+import { useWallet } from '@safecoin/wallet-adapter-react';
 import React, { FC, MouseEventHandler, useCallback, useMemo } from 'react';
 import { WalletIcon } from './WalletIcon';
 

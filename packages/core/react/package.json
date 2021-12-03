@@ -1,5 +1,5 @@
 {
-    "name": "@solana/wallet-adapter-react",
+    "name": "@safecoin/wallet-adapter-react",
     "version": "0.13.1",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -22,15 +22,15 @@
         "build": "yarn clean && tsc"
     },
     "peerDependencies": {
-        "@solana/wallet-adapter-base": "^0.7.0",
-        "@solana/wallet-adapter-wallets": "^0.11.0",
-        "@solana/web3.js": "^1.20.0",
+        "@safecoin/wallet-adapter-base": "^0.7.0",
+        "@safecoin/wallet-adapter-wallets": "^0.11.0",
+        "@safecoin/web3.js": "^1.29.3",
         "react": "^17.0.2"
     },
     "devDependencies": {
-        "@solana/wallet-adapter-base": "^0.7.0",
-        "@solana/wallet-adapter-wallets": "^0.11.0",
-        "@solana/web3.js": "^1.20.0",
+        "@safecoin/wallet-adapter-base": "^0.7.0",
+        "@safecoin/wallet-adapter-wallets": "^0.11.0",
+        "@safecoin/web3.js": "^1.29.3",
         "@types/react": "^17.0.24",
         "react": "^17.0.2"
     }

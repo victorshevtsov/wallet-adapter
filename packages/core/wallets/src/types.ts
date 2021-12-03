@@ -1,4 +1,4 @@
-import { MessageSignerWalletAdapter, SignerWalletAdapter, WalletAdapter } from '@solana/wallet-adapter-base';
+import { MessageSignerWalletAdapter, SignerWalletAdapter, WalletAdapter } from '@safecoin/wallet-adapter-base';
 
 export enum WalletName {
     BitKeep = 'BitKeep',
@@ -10,6 +10,7 @@ export enum WalletName {
     Ledger = 'Ledger',
     MathWallet = 'MathWallet',
     Phantom = 'Phantom',
+    Safecoin = 'Safecoin',
     SafePal = 'SafePal',
     Slope = 'Slope',
     Solflare = 'Solflare',

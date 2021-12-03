@@ -1,4 +1,4 @@
-import { Connection, PublicKey, SendOptions, Signer, Transaction, TransactionSignature } from '@solana/web3.js';
+import { Connection, PublicKey, SendOptions, Signer, Transaction, TransactionSignature } from '@safecoin/web3.js';
 import EventEmitter from 'eventemitter3';
 import { WalletError } from './errors';
 

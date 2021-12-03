@@ -1,5 +1,10 @@
 {
-    "packages": ["packages/*/*"],
+    "packages": [
+        "packages/core/base",
+        "packages/core/react",
+        "packages/core/wallets",
+        "packages/ui/material-ui",
+        "packages/wallets/safecoin"],
     "version": "independent",
     "npmClient": "yarn",
     "useWorkspaces": true

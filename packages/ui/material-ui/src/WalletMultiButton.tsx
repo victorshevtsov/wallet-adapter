@@ -12,7 +12,7 @@ import {
 import CopyIcon from '@material-ui/icons/FileCopy';
 import DisconnectIcon from '@material-ui/icons/LinkOff';
 import SwitchIcon from '@material-ui/icons/SwapHoriz';
-import { useWallet } from '@solana/wallet-adapter-react';
+import { useWallet } from '@safecoin/wallet-adapter-react';
 import React, { FC, useMemo, useState } from 'react';
 import { useWalletDialog } from './useWalletDialog';
 import { WalletConnectButton } from './WalletConnectButton';

@@ -1,4 +1,4 @@
-import { Connection, ConnectionConfig } from '@solana/web3.js';
+import { Connection, ConnectionConfig } from '@safecoin/web3.js';
 import React, { FC, ReactNode, useMemo } from 'react';
 import { ConnectionContext } from './useConnection';
 

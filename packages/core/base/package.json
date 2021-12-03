@@ -1,5 +1,5 @@
 {
-    "name": "@solana/wallet-adapter-base",
+    "name": "@safecoin/wallet-adapter-base",
     "version": "0.7.0",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -21,12 +21,12 @@
         "build": "yarn clean && tsc"
     },
     "peerDependencies": {
-        "@solana/web3.js": "^1.20.0"
+        "@safecoin/web3.js": "^1.29.3"
     },
     "dependencies": {
         "eventemitter3": "^4.0.7"
     },
     "devDependencies": {
-        "@solana/web3.js": "^1.20.0"
+        "@safecoin/web3.js": "^1.29.3"
     }
 }

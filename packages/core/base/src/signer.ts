@@ -1,4 +1,4 @@
-import { Connection, Transaction, TransactionSignature } from '@solana/web3.js';
+import { Connection, Transaction, TransactionSignature } from '@safecoin/web3.js';
 import { BaseWalletAdapter, SendTransactionOptions, WalletAdapter } from './adapter';
 import { WalletError, WalletSendTransactionError } from './errors';
 

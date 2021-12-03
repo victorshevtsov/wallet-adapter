@@ -1,6 +1,6 @@
 {
-    "name": "@safecoin/wallet-adapter-wallets",
-    "version": "0.11.3",
+    "name": "@safecoin/wallet-adapter-safecoin",
+    "version": "0.8.0",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
     "license": "Apache-2.0",
@@ -22,12 +22,14 @@
         "build": "yarn clean && tsc"
     },
     "peerDependencies": {
-        "@safecoin/wallet-adapter-base": "^0.7.0"
+        "@safecoin/wallet-adapter-base": "^0.7.0",
+        "@safecoin/web3.js": "^1.29.3"
     },
     "dependencies": {
-        "@safecoin/wallet-adapter-safecoin": "^0.8.0"
+        "@araviel/safe-wallet-adapter": "^0.2.52"
     },
     "devDependencies": {
-        "@safecoin/wallet-adapter-base": "^0.7.0"
+        "@safecoin/wallet-adapter-base": "^0.7.0",
+        "@safecoin/web3.js": "^1.29.3"
     }
 }
