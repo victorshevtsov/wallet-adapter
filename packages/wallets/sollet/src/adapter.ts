@@ -1,4 +1,4 @@
-import Wallet from '@project-serum/sol-wallet-adapter';
+import Wallet from '@araviel/safe-wallet-adapter';
 import {
     BaseMessageSignerWalletAdapter,
     pollUntilReady,
@@ -14,8 +14,8 @@ import {
     WalletTimeoutError,
     WalletWindowBlockedError,
     WalletWindowClosedError,
-} from '@solana/wallet-adapter-base';
-import { PublicKey, Transaction } from '@solana/web3.js';
+} from '@safecoin/wallet-adapter-base';
+import { PublicKey, Transaction } from '@safecoin/web3.js';
 
 interface SolletWallet {
     postMessage(...args: unknown[]): unknown;
