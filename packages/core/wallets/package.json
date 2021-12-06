@@ -22,12 +22,11 @@
         "build": "yarn clean && tsc"
     },
     "peerDependencies": {
-        "@safecoin/wallet-adapter-base": "^0.7.0"
-    },
-    "dependencies": {
+        "@safecoin/wallet-adapter-base": "^0.7.0",
         "@safecoin/wallet-adapter-safecoin": "^0.8.0"
     },
     "devDependencies": {
-        "@safecoin/wallet-adapter-base": "^0.7.0"
+        "@safecoin/wallet-adapter-base": "^0.7.0",
+        "@safecoin/wallet-adapter-safecoin": "^0.8.0"
     }
 }

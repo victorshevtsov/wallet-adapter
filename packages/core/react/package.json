@@ -24,13 +24,13 @@
     "peerDependencies": {
         "@safecoin/wallet-adapter-base": "^0.7.0",
         "@safecoin/wallet-adapter-wallets": "^0.11.0",
-        "@safecoin/web3.js": "^1.29.3",
+        "@safecoin/web3.js": "file:../../../../safecoin-web3.js",
         "react": "^17.0.2"
     },
     "devDependencies": {
         "@safecoin/wallet-adapter-base": "^0.7.0",
         "@safecoin/wallet-adapter-wallets": "^0.11.0",
-        "@safecoin/web3.js": "^1.29.3",
+        "@safecoin/web3.js": "file:../../../../safecoin-web3.js",
         "@types/react": "^17.0.24",
         "react": "^17.0.2"
     }
