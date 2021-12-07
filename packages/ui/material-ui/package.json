@@ -25,7 +25,7 @@
         "@safecoin/wallet-adapter-base": "^0.7.0",
         "@safecoin/wallet-adapter-react": "^0.13.0",
         "@safecoin/wallet-adapter-wallets": "^0.11.0",
-        "@safecoin/web3.js": "file:../../../../safecoin-web3.js" ,
+        "@safecoin/web3.js": "^1.29.3",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
@@ -35,7 +35,7 @@
         "@safecoin/wallet-adapter-base": "^0.7.0",
         "@safecoin/wallet-adapter-react": "^0.13.0",
         "@safecoin/wallet-adapter-wallets": "^0.11.0",
-        "@safecoin/web3.js": "file:../../../../safecoin-web3.js" ,
+        "@safecoin/web3.js": "^1.29.3",
         "@types/react": "^17.0.24",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
