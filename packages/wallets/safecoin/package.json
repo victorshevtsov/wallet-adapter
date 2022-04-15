@@ -23,13 +23,13 @@
     },
     "peerDependencies": {
         "@safecoin/wallet-adapter-base": "^0.7.0",
-        "@safecoin/web3.js": "^1.29.3"
+        "@safecoin/web3.js": "^1.29.4"
     },
     "dependencies": {
-        "@araviel/safe-wallet-adapter": "^0.2.52"
+        "@araviel/safe-wallet-adapter": "file:../../../../safe-wallet-adapter"        
     },
     "devDependencies": {
         "@safecoin/wallet-adapter-base": "^0.7.0",
-        "@safecoin/web3.js": "^1.29.3"
+        "@safecoin/web3.js": "^1.29.4"
     }
 }

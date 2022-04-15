@@ -11,7 +11,8 @@
             "packages/core/react",
             "packages/core/wallets",
             "packages/ui/material-ui",
-            "packages/wallets/safecoin"],
+            "packages/wallets/safecoin"
+        ],
         "nohoist": [
             "**/babel-loader",
             "**/babel-loader/**",
@@ -39,7 +40,11 @@
         "lint:fix": "eslint --fix --ext .ts . && yarn fmt",
         "nuke": "shx rm -rf {.,packages/*/*}/{node_modules,yarn.lock}"
     },
+    "peerDependencies": {
+        "@safecoin/web3.js": "^1.29.4"
+      },
     "devDependencies": {
+        "@safecoin/web3.js": "^1.29.4",
         "@types/eslint": "^7.2.13",
         "@types/eslint-plugin-prettier": "^3.1.0",
         "@types/node": "^16.9.1",
